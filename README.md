@@ -26,6 +26,8 @@ Setup phpmyadmin with ssl, etc..<br>
 Now move files <pre>nonce_fast.py and nonce.py</pre> from 'misc' directory to <pre>/root/pyethereum/ethereum/ (main directory of Pyethereum)</pre><br>
 To maximize performance, tweak configurations of memcached,mariadb,nginx,hhvm and kernel but it's not necessary to start pool.<br>
 
+# Debian Deprecated
+
 # Start Pool
 <pre>screen -dmS geth geth --rpcaddr 127.0.0.1 --rpcport 8983 --rpc --unlock Address</pre>
 
