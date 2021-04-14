@@ -29,7 +29,7 @@ To maximize performance, tweak configurations of memcached,mariadb,nginx,hhvm an
 # Debian Deprecated
 
 # Start Pool
-<pre>screen -dmS geth --rpcaddr 127.0.0.1 --rpcport 8983 --rpc --unlock Address</pre>
+<pre>screen -dmS geth geth --http.addr 127.0.0.1 --http.port 8983 --http --unlock Address</pre>
 
 Now start background scripts:<br>
 Get work from geth json and cache it with memcached
